@@ -1,0 +1,2335 @@
+ariell.zaki@badak:~$ PS1="$ "
+$ echo $GitHubUser ariellariza
+ariellariza ariellariza
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+200607-220617-466c-ariell.zaki/>
+$ eval $PSTAMP
+200607-220628-d416-ariell.zaki/>
+$ 200528-165332-3846-UAS/>
+bash: syntax error near unexpected token `newline'
+$ 200528-165332-3846-UAS/>date
+bash: 200528-165332-3846-UAS/: No such file or directory
+$ date
+Sun Jun  7 22:10:14 WIB 2020
+$ PS1="\$(eval \$PSTAMP)"
+200607-221027-2c13-ariell.zaki/> date
+Sun Jun  7 22:10:29 WIB 2020
+200607-221029-b9c2-ariell.zaki/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200607-221044-9a05-ariell.zaki/> exit
+exit
+
+Script done on Sun 07 Jun 2020 10:10:53 PM WIB
+ariell.zaki@badak:~$ gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg-agent[21809]: command get_passphrase failed: Operation cancelled
+gpg: cancelled by user
+gpg: no default secret key: Operation cancelled
+gpg: 0001-mytest.txt: sign+encrypt failed: Operation cancelled
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+#*/}/> ";"$TMP1-$TMP2-${PWD#
+200607-220617-466c-ariell.zaki/>
+$ eval $PSTAMP
+200607-220628-d416-ariell.zaki/>
+$ 200528-165332-3846-UAS/>
+bash: syntax error near unexpected token `newline'
+$ 200528-165332-3846-UAS/>date
+bash: 200528-165332-3846-UAS/: No such file or directory
+$ date
+Sun Jun  7 22:10:14 WIB 2020
+$ PS1="\$(eval \$PSTAMP)"
+200607-221027-2c13-ariell.zaki/> date
+Sun Jun  7 22:10:29 WIB 2020
+200607-221029-b9c2-ariell.zaki/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200607-221044-9a05-ariell.zaki/> exit
+exit
+
+Script done on Sun 07 Jun 2020 10:10:53 PM WIB
+ariell.zaki@badak:~$ gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg-agent[21809]: command get_passphrase failed: Operation cancelled
+gpg: cancelled by user
+gpg: no default secret key: Operation cancelled
+gpg: 0001-mytest.txt: sign+encrypt failed: Operation cancelled
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+#*/}/> ";"$TMP1-$TMP2-${PWD#
+200607-220617-466c-ariell.zaki/>
+$ eval $PSTAMP
+200607-220628-d416-ariell.zaki/>
+$ 200528-165332-3846-UAS/>
+bash: syntax error near unexpected token `newline'
+$ 200528-165332-3846-UAS/>date
+bash: 200528-165332-3846-UAS/: No such file or directory
+$ date
+Sun Jun  7 22:10:14 WIB 2020
+$ PS1="\$(eval \$PSTAMP)"
+200607-221027-2c13-ariell.zaki/> date
+Sun Jun  7 22:10:29 WIB 2020
+200607-221029-b9c2-ariell.zaki/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200607-221044-9a05-ariell.zaki/> exit
+exit
+
+Script done on Sun 07 Jun 2020 10:10:53 PM WIB
+ariell.zaki@badak:~$ gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg-agent[21809]: command get_passphrase failed: Operation cancelled
+gpg: cancelled by user
+gpg: no default secret key: Operation cancelled
+gpg: 0001-mytest.txt: sign+encrypt failed: Operation cancelled
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+#*/}/> ";"$TMP1-$TMP2-${PWD#
+200607-220617-466c-ariell.zaki/>
+$ eval $PSTAMP
+200607-220628-d416-ariell.zaki/>
+$ 200528-165332-3846-UAS/>
+bash: syntax error near unexpected token `newline'
+$ 200528-165332-3846-UAS/>date
+bash: 200528-165332-3846-UAS/: No such file or directory
+$ date
+Sun Jun  7 22:10:14 WIB 2020
+$ PS1="\$(eval \$PSTAMP)"
+200607-221027-2c13-ariell.zaki/> date
+Sun Jun  7 22:10:29 WIB 2020
+200607-221029-b9c2-ariell.zaki/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200607-221044-9a05-ariell.zaki/> exit
+exit
+
+Script done on Sun 07 Jun 2020 10:10:53 PM WIB
+ariell.zaki@badak:~$ gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg-agent[21809]: command get_passphrase failed: Operation cancelled
+gpg: cancelled by user
+gpg: no default secret key: Operation cancelled
+gpg: 0001-mytest.txt: sign+encrypt failed: Operation cancelled
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+#*/}/> ";"$TMP1-$TMP2-${PWD#
+200607-220617-466c-ariell.zaki/>
+$ eval $PSTAMP
+200607-220628-d416-ariell.zaki/>
+$ 200528-165332-3846-UAS/>
+bash: syntax error near unexpected token `newline'
+$ 200528-165332-3846-UAS/>date
+bash: 200528-165332-3846-UAS/: No such file or directory
+$ date
+Sun Jun  7 22:10:14 WIB 2020
+$ PS1="\$(eval \$PSTAMP)"
+200607-221027-2c13-ariell.zaki/> date
+Sun Jun  7 22:10:29 WIB 2020
+200607-221029-b9c2-ariell.zaki/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200607-221044-9a05-ariell.zaki/> exit
+exit
+
+Script done on Sun 07 Jun 2020 10:10:53 PM WIB
+ariell.zaki@badak:~$ gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg-agent[21809]: command get_passphrase failed: Operation cancelled
+gpg: cancelled by user
+gpg: no default secret key: Operation cancelled
+gpg: 0001-mytest.txt: sign+encrypt failed: Operation cancelled
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+#*/}/> ";"$TMP1-$TMP2-${PWD#
+200607-220617-466c-ariell.zaki/>
+$ eval $PSTAMP
+200607-220628-d416-ariell.zaki/>
+$ 200528-165332-3846-UAS/>
+bash: syntax error near unexpected token `newline'
+$ 200528-165332-3846-UAS/>date
+bash: 200528-165332-3846-UAS/: No such file or directory
+$ date
+Sun Jun  7 22:10:14 WIB 2020
+$ PS1="\$(eval \$PSTAMP)"
+200607-221027-2c13-ariell.zaki/> date
+Sun Jun  7 22:10:29 WIB 2020
+200607-221029-b9c2-ariell.zaki/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200607-221044-9a05-ariell.zaki/> exit
+exit
+
+Script done on Sun 07 Jun 2020 10:10:53 PM WIB
+ariell.zaki@badak:~$ gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg-agent[21809]: command get_passphrase failed: Operation cancelled
+gpg: cancelled by user
+gpg: no default secret key: Operation cancelled
+gpg: 0001-mytest.txt: sign+encrypt failed: Operation cancelled
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+#*/}/> ";"$TMP1-$TMP2-${PWD#
+200607-220617-466c-ariell.zaki/>
+$ eval $PSTAMP
+200607-220628-d416-ariell.zaki/>
+$ 200528-165332-3846-UAS/>
+bash: syntax error near unexpected token `newline'
+$ 200528-165332-3846-UAS/>date
+bash: 200528-165332-3846-UAS/: No such file or directory
+$ date
+Sun Jun  7 22:10:14 WIB 2020
+$ PS1="\$(eval \$PSTAMP)"
+200607-221027-2c13-ariell.zaki/> date
+Sun Jun  7 22:10:29 WIB 2020
+200607-221029-b9c2-ariell.zaki/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200607-221044-9a05-ariell.zaki/> exit
+exit
+
+Script done on Sun 07 Jun 2020 10:10:53 PM WIB
+ariell.zaki@badak:~$ gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg-agent[21809]: command get_passphrase failed: Operation cancelled
+gpg: cancelled by user
+gpg: no default secret key: Operation cancelled
+gpg: 0001-mytest.txt: sign+encrypt failed: Operation cancelled
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+#*/}/> ";"$TMP1-$TMP2-${PWD#
+200607-220617-466c-ariell.zaki/>
+$ eval $PSTAMP
+200607-220628-d416-ariell.zaki/>
+$ 200528-165332-3846-UAS/>
+bash: syntax error near unexpected token `newline'
+$ 200528-165332-3846-UAS/>date
+bash: 200528-165332-3846-UAS/: No such file or directory
+$ date
+Sun Jun  7 22:10:14 WIB 2020
+$ PS1="\$(eval \$PSTAMP)"
+200607-221027-2c13-ariell.zaki/> date
+Sun Jun  7 22:10:29 WIB 2020
+200607-221029-b9c2-ariell.zaki/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200607-221044-9a05-ariell.zaki/> exit
+exit
+
+Script done on Sun 07 Jun 2020 10:10:53 PM WIB
+ariell.zaki@badak:~$ gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg-agent[21809]: command get_passphrase failed: Operation cancelled
+gpg: cancelled by user
+gpg: no default secret key: Operation cancelled
+gpg: 0001-mytest.txt: sign+encrypt failed: Operation cancelled
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+#*/}/> ";"$TMP1-$TMP2-${PWD#
+200607-220617-466c-ariell.zaki/>
+$ eval $PSTAMP
+200607-220628-d416-ariell.zaki/>
+$ 200528-165332-3846-UAS/>
+bash: syntax error near unexpected token `newline'
+$ 200528-165332-3846-UAS/>date
+bash: 200528-165332-3846-UAS/: No such file or directory
+$ date
+Sun Jun  7 22:10:14 WIB 2020
+$ PS1="\$(eval \$PSTAMP)"
+200607-221027-2c13-ariell.zaki/> date
+Sun Jun  7 22:10:29 WIB 2020
+200607-221029-b9c2-ariell.zaki/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200607-221044-9a05-ariell.zaki/> exit
+exit
+
+Script done on Sun 07 Jun 2020 10:10:53 PM WIB
+ariell.zaki@badak:~$ gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg-agent[21809]: command get_passphrase failed: Operation cancelled
+gpg: cancelled by user
+gpg: no default secret key: Operation cancelled
+gpg: 0001-mytest.txt: sign+encrypt failed: Operation cancelled
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+#*/}/> ";"$TMP1-$TMP2-${PWD#
+200607-220617-466c-ariell.zaki/>
+$ eval $PSTAMP
+200607-220628-d416-ariell.zaki/>
+$ 200528-165332-3846-UAS/>
+bash: syntax error near unexpected token `newline'
+$ 200528-165332-3846-UAS/>date
+bash: 200528-165332-3846-UAS/: No such file or directory
+$ date
+Sun Jun  7 22:10:14 WIB 2020
+$ PS1="\$(eval \$PSTAMP)"
+200607-221027-2c13-ariell.zaki/> date
+Sun Jun  7 22:10:29 WIB 2020
+200607-221029-b9c2-ariell.zaki/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200607-221044-9a05-ariell.zaki/> exit
+exit
+
+Script done on Sun 07 Jun 2020 10:10:53 PM WIB
+ariell.zaki@badak:~$ gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg-agent[21809]: command get_passphrase failed: Operation cancelled
+gpg: cancelled by user
+gpg: no default secret key: Operation cancelled
+gpg: 0001-mytest.txt: sign+encrypt failed: Operation cancelled
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+#*/}/> ";"$TMP1-$TMP2-${PWD#
+200607-220617-466c-ariell.zaki/>
+$ eval $PSTAMP
+200607-220628-d416-ariell.zaki/>
+$ 200528-165332-3846-UAS/>
+bash: syntax error near unexpected token `newline'
+$ 200528-165332-3846-UAS/>date
+bash: 200528-165332-3846-UAS/: No such file or directory
+$ date
+Sun Jun  7 22:10:14 WIB 2020
+$ PS1="\$(eval \$PSTAMP)"
+200607-221027-2c13-ariell.zaki/> date
+Sun Jun  7 22:10:29 WIB 2020
+200607-221029-b9c2-ariell.zaki/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200607-221044-9a05-ariell.zaki/> exit
+exit
+
+Script done on Sun 07 Jun 2020 10:10:53 PM WIB
+ariell.zaki@badak:~$ gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg-agent[21809]: command get_passphrase failed: Operation cancelled
+gpg: cancelled by user
+gpg: no default secret key: Operation cancelled
+gpg: 0001-mytest.txt: sign+encrypt failed: Operation cancelled
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+#*/}/> ";"$TMP1-$TMP2-${PWD#
+200607-220617-466c-ariell.zaki/>
+$ eval $PSTAMP
+200607-220628-d416-ariell.zaki/>
+$ 200528-165332-3846-UAS/>
+bash: syntax error near unexpected token `newline'
+$ 200528-165332-3846-UAS/>date
+bash: 200528-165332-3846-UAS/: No such file or directory
+$ date
+Sun Jun  7 22:10:14 WIB 2020
+$ PS1="\$(eval \$PSTAMP)"
+200607-221027-2c13-ariell.zaki/> date
+Sun Jun  7 22:10:29 WIB 2020
+200607-221029-b9c2-ariell.zaki/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200607-221044-9a05-ariell.zaki/> exit
+exit
+
+Script done on Sun 07 Jun 2020 10:10:53 PM WIB
+ariell.zaki@badak:~$ gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg-agent[21809]: command get_passphrase failed: Operation cancelled
+gpg: cancelled by user
+gpg: no default secret key: Operation cancelled
+gpg: 0001-mytest.txt: sign+encrypt failed: Operation cancelled
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+#*/}/> ";"$TMP1-$TMP2-${PWD#
+200607-220617-466c-ariell.zaki/>
+$ eval $PSTAMP
+200607-220628-d416-ariell.zaki/>
+$ 200528-165332-3846-UAS/>
+bash: syntax error near unexpected token `newline'
+$ 200528-165332-3846-UAS/>date
+bash: 200528-165332-3846-UAS/: No such file or directory
+$ date
+Sun Jun  7 22:10:14 WIB 2020
+$ PS1="\$(eval \$PSTAMP)"
+200607-221027-2c13-ariell.zaki/> date
+Sun Jun  7 22:10:29 WIB 2020
+200607-221029-b9c2-ariell.zaki/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200607-221044-9a05-ariell.zaki/> exit
+exit
+
+Script done on Sun 07 Jun 2020 10:10:53 PM WIB
+ariell.zaki@badak:~$ gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg-agent[21809]: command get_passphrase failed: Operation cancelled
+gpg: cancelled by user
+gpg: no default secret key: Operation cancelled
+gpg: 0001-mytest.txt: sign+encrypt failed: Operation cancelled
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+#*/}/> ";"$TMP1-$TMP2-${PWD#
+200607-220617-466c-ariell.zaki/>
+$ eval $PSTAMP
+200607-220628-d416-ariell.zaki/>
+$ 200528-165332-3846-UAS/>
+bash: syntax error near unexpected token `newline'
+$ 200528-165332-3846-UAS/>date
+bash: 200528-165332-3846-UAS/: No such file or directory
+$ date
+Sun Jun  7 22:10:14 WIB 2020
+$ PS1="\$(eval \$PSTAMP)"
+200607-221027-2c13-ariell.zaki/> date
+Sun Jun  7 22:10:29 WIB 2020
+200607-221029-b9c2-ariell.zaki/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200607-221044-9a05-ariell.zaki/> exit
+exit
+
+Script done on Sun 07 Jun 2020 10:10:53 PM WIB
+ariell.zaki@badak:~$ gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg-agent[21809]: command get_passphrase failed: Operation cancelled
+gpg: cancelled by user
+gpg: no default secret key: Operation cancelled
+gpg: 0001-mytest.txt: sign+encrypt failed: Operation cancelled
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+#*/}/> ";"$TMP1-$TMP2-${PWD#
+200607-220617-466c-ariell.zaki/>
+$ eval $PSTAMP
+200607-220628-d416-ariell.zaki/>
+$ 200528-165332-3846-UAS/>
+bash: syntax error near unexpected token `newline'
+$ 200528-165332-3846-UAS/>date
+bash: 200528-165332-3846-UAS/: No such file or directory
+$ date
+Sun Jun  7 22:10:14 WIB 2020
+$ PS1="\$(eval \$PSTAMP)"
+200607-221027-2c13-ariell.zaki/> date
+Sun Jun  7 22:10:29 WIB 2020
+200607-221029-b9c2-ariell.zaki/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200607-221044-9a05-ariell.zaki/> exit
+exit
+
+Script done on Sun 07 Jun 2020 10:10:53 PM WIB
+ariell.zaki@badak:~$ gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg-agent[21809]: command get_passphrase failed: Operation cancelled
+gpg: cancelled by user
+gpg: no default secret key: Operation cancelled
+gpg: 0001-mytest.txt: sign+encrypt failed: Operation cancelled
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+#*/}/> ";"$TMP1-$TMP2-${PWD#
+200607-220617-466c-ariell.zaki/>
+$ eval $PSTAMP
+200607-220628-d416-ariell.zaki/>
+$ 200528-165332-3846-UAS/>
+bash: syntax error near unexpected token `newline'
+$ 200528-165332-3846-UAS/>date
+bash: 200528-165332-3846-UAS/: No such file or directory
+$ date
+Sun Jun  7 22:10:14 WIB 2020
+$ PS1="\$(eval \$PSTAMP)"
+200607-221027-2c13-ariell.zaki/> date
+Sun Jun  7 22:10:29 WIB 2020
+200607-221029-b9c2-ariell.zaki/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200607-221044-9a05-ariell.zaki/> exit
+exit
+
+Script done on Sun 07 Jun 2020 10:10:53 PM WIB
+ariell.zaki@badak:~$ gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg-agent[21809]: command get_passphrase failed: Operation cancelled
+gpg: cancelled by user
+gpg: no default secret key: Operation cancelled
+gpg: 0001-mytest.txt: sign+encrypt failed: Operation cancelled
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+#*/}/> ";"$TMP1-$TMP2-${PWD#
+200607-220617-466c-ariell.zaki/>
+$ eval $PSTAMP
+200607-220628-d416-ariell.zaki/>
+$ 200528-165332-3846-UAS/>
+bash: syntax error near unexpected token `newline'
+$ 200528-165332-3846-UAS/>date
+bash: 200528-165332-3846-UAS/: No such file or directory
+$ date
+Sun Jun  7 22:10:14 WIB 2020
+$ PS1="\$(eval \$PSTAMP)"
+200607-221027-2c13-ariell.zaki/> date
+Sun Jun  7 22:10:29 WIB 2020
+200607-221029-b9c2-ariell.zaki/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200607-221044-9a05-ariell.zaki/> exit
+exit
+
+Script done on Sun 07 Jun 2020 10:10:53 PM WIB
+ariell.zaki@badak:~$ gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg-agent[21809]: command get_passphrase failed: Operation cancelled
+gpg: cancelled by user
+gpg: no default secret key: Operation cancelled
+gpg: 0001-mytest.txt: sign+encrypt failed: Operation cancelled
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+#*/}/> ";"$TMP1-$TMP2-${PWD#
+200607-220617-466c-ariell.zaki/>
+$ eval $PSTAMP
+200607-220628-d416-ariell.zaki/>
+$ 200528-165332-3846-UAS/>
+bash: syntax error near unexpected token `newline'
+$ 200528-165332-3846-UAS/>date
+bash: 200528-165332-3846-UAS/: No such file or directory
+$ date
+Sun Jun  7 22:10:14 WIB 2020
+$ PS1="\$(eval \$PSTAMP)"
+200607-221027-2c13-ariell.zaki/> date
+Sun Jun  7 22:10:29 WIB 2020
+200607-221029-b9c2-ariell.zaki/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200607-221044-9a05-ariell.zaki/> exit
+exit
+
+Script done on Sun 07 Jun 2020 10:10:53 PM WIB
+ariell.zaki@badak:~$ gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg-agent[21809]: command get_passphrase failed: Operation cancelled
+gpg: cancelled by user
+gpg: no default secret key: Operation cancelled
+gpg: 0001-mytest.txt: sign+encrypt failed: Operation cancelled
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+#*/}/> ";"$TMP1-$TMP2-${PWD#
+200607-220617-466c-ariell.zaki/>
+$ eval $PSTAMP
+200607-220628-d416-ariell.zaki/>
+$ 200528-165332-3846-UAS/>
+bash: syntax error near unexpected token `newline'
+$ 200528-165332-3846-UAS/>date
+bash: 200528-165332-3846-UAS/: No such file or directory
+$ date
+Sun Jun  7 22:10:14 WIB 2020
+$ PS1="\$(eval \$PSTAMP)"
+200607-221027-2c13-ariell.zaki/> date
+Sun Jun  7 22:10:29 WIB 2020
+200607-221029-b9c2-ariell.zaki/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200607-221044-9a05-ariell.zaki/> exit
+exit
+
+Script done on Sun 07 Jun 2020 10:10:53 PM WIB
+ariell.zaki@badak:~$ gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg-agent[21809]: command get_passphrase failed: Operation cancelled
+gpg: cancelled by user
+gpg: no default secret key: Operation cancelled
+gpg: 0001-mytest.txt: sign+encrypt failed: Operation cancelled
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+#*/}/> ";"$TMP1-$TMP2-${PWD#
+200607-220617-466c-ariell.zaki/>
+$ eval $PSTAMP
+200607-220628-d416-ariell.zaki/>
+$ 200528-165332-3846-UAS/>
+bash: syntax error near unexpected token `newline'
+$ 200528-165332-3846-UAS/>date
+bash: 200528-165332-3846-UAS/: No such file or directory
+$ date
+Sun Jun  7 22:10:14 WIB 2020
+$ PS1="\$(eval \$PSTAMP)"
+200607-221027-2c13-ariell.zaki/> date
+Sun Jun  7 22:10:29 WIB 2020
+200607-221029-b9c2-ariell.zaki/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200607-221044-9a05-ariell.zaki/> exit
+exit
+
+Script done on Sun 07 Jun 2020 10:10:53 PM WIB
+ariell.zaki@badak:~$ gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg-agent[21809]: command get_passphrase failed: Operation cancelled
+gpg: cancelled by user
+gpg: no default secret key: Operation cancelled
+gpg: 0001-mytest.txt: sign+encrypt failed: Operation cancelled
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+#*/}/> ";"$TMP1-$TMP2-${PWD#
+200607-220617-466c-ariell.zaki/>
+$ eval $PSTAMP
+200607-220628-d416-ariell.zaki/>
+$ 200528-165332-3846-UAS/>
+bash: syntax error near unexpected token `newline'
+$ 200528-165332-3846-UAS/>date
+bash: 200528-165332-3846-UAS/: No such file or directory
+$ date
+Sun Jun  7 22:10:14 WIB 2020
+$ PS1="\$(eval \$PSTAMP)"
+200607-221027-2c13-ariell.zaki/> date
+Sun Jun  7 22:10:29 WIB 2020
+200607-221029-b9c2-ariell.zaki/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200607-221044-9a05-ariell.zaki/> exit
+exit
+
+Script done on Sun 07 Jun 2020 10:10:53 PM WIB
+ariell.zaki@badak:~$ gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg-agent[21809]: command get_passphrase failed: Operation cancelled
+gpg: cancelled by user
+gpg: no default secret key: Operation cancelled
+gpg: 0001-mytest.txt: sign+encrypt failed: Operation cancelled
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+#*/}/> ";"$TMP1-$TMP2-${PWD#
+200607-220617-466c-ariell.zaki/>
+$ eval $PSTAMP
+200607-220628-d416-ariell.zaki/>
+$ 200528-165332-3846-UAS/>
+bash: syntax error near unexpected token `newline'
+$ 200528-165332-3846-UAS/>date
+bash: 200528-165332-3846-UAS/: No such file or directory
+$ date
+Sun Jun  7 22:10:14 WIB 2020
+$ PS1="\$(eval \$PSTAMP)"
+200607-221027-2c13-ariell.zaki/> date
+Sun Jun  7 22:10:29 WIB 2020
+200607-221029-b9c2-ariell.zaki/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200607-221044-9a05-ariell.zaki/> exit
+exit
+
+Script done on Sun 07 Jun 2020 10:10:53 PM WIB
+ariell.zaki@badak:~$ gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg-agent[21809]: command get_passphrase failed: Operation cancelled
+gpg: cancelled by user
+gpg: no default secret key: Operation cancelled
+gpg: 0001-mytest.txt: sign+encrypt failed: Operation cancelled
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+#*/}/> ";"$TMP1-$TMP2-${PWD#
+200607-220617-466c-ariell.zaki/>
+$ eval $PSTAMP
+200607-220628-d416-ariell.zaki/>
+$ 200528-165332-3846-UAS/>
+bash: syntax error near unexpected token `newline'
+$ 200528-165332-3846-UAS/>date
+bash: 200528-165332-3846-UAS/: No such file or directory
+$ date
+Sun Jun  7 22:10:14 WIB 2020
+$ PS1="\$(eval \$PSTAMP)"
+200607-221027-2c13-ariell.zaki/> date
+Sun Jun  7 22:10:29 WIB 2020
+200607-221029-b9c2-ariell.zaki/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200607-221044-9a05-ariell.zaki/> exit
+exit
+
+Script done on Sun 07 Jun 2020 10:10:53 PM WIB
+ariell.zaki@badak:~$ gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg-agent[21809]: command get_passphrase failed: Operation cancelled
+gpg: cancelled by user
+gpg: no default secret key: Operation cancelled
+gpg: 0001-mytest.txt: sign+encrypt failed: Operation cancelled
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+#*/}/> ";"$TMP1-$TMP2-${PWD#
+200607-220617-466c-ariell.zaki/>
+$ eval $PSTAMP
+200607-220628-d416-ariell.zaki/>
+$ 200528-165332-3846-UAS/>
+bash: syntax error near unexpected token `newline'
+$ 200528-165332-3846-UAS/>date
+bash: 200528-165332-3846-UAS/: No such file or directory
+$ date
+Sun Jun  7 22:10:14 WIB 2020
+$ PS1="\$(eval \$PSTAMP)"
+200607-221027-2c13-ariell.zaki/> date
+Sun Jun  7 22:10:29 WIB 2020
+200607-221029-b9c2-ariell.zaki/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200607-221044-9a05-ariell.zaki/> exit
+exit
+
+Script done on Sun 07 Jun 2020 10:10:53 PM WIB
+ariell.zaki@badak:~$ gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg-agent[21809]: command get_passphrase failed: Operation cancelled
+gpg: cancelled by user
+gpg: no default secret key: Operation cancelled
+gpg: 0001-mytest.txt: sign+encrypt failed: Operation cancelled
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+#*/}/> ";"$TMP1-$TMP2-${PWD#
+200607-220617-466c-ariell.zaki/>
+$ eval $PSTAMP
+200607-220628-d416-ariell.zaki/>
+$ 200528-165332-3846-UAS/>
+bash: syntax error near unexpected token `newline'
+$ 200528-165332-3846-UAS/>date
+bash: 200528-165332-3846-UAS/: No such file or directory
+$ date
+Sun Jun  7 22:10:14 WIB 2020
+$ PS1="\$(eval \$PSTAMP)"
+200607-221027-2c13-ariell.zaki/> date
+Sun Jun  7 22:10:29 WIB 2020
+200607-221029-b9c2-ariell.zaki/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200607-221044-9a05-ariell.zaki/> exit
+exit
+
+Script done on Sun 07 Jun 2020 10:10:53 PM WIB
+ariell.zaki@badak:~$ gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg-agent[21809]: command get_passphrase failed: Operation cancelled
+gpg: cancelled by user
+gpg: no default secret key: Operation cancelled
+gpg: 0001-mytest.txt: sign+encrypt failed: Operation cancelled
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+#*/}/> ";"$TMP1-$TMP2-${PWD#
+200607-220617-466c-ariell.zaki/>
+$ eval $PSTAMP
+200607-220628-d416-ariell.zaki/>
+$ 200528-165332-3846-UAS/>
+bash: syntax error near unexpected token `newline'
+$ 200528-165332-3846-UAS/>date
+bash: 200528-165332-3846-UAS/: No such file or directory
+$ date
+Sun Jun  7 22:10:14 WIB 2020
+$ PS1="\$(eval \$PSTAMP)"
+200607-221027-2c13-ariell.zaki/> date
+Sun Jun  7 22:10:29 WIB 2020
+200607-221029-b9c2-ariell.zaki/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200607-221044-9a05-ariell.zaki/> exit
+exit
+
+Script done on Sun 07 Jun 2020 10:10:53 PM WIB
+ariell.zaki@badak:~$ gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg-agent[21809]: command get_passphrase failed: Operation cancelled
+gpg: cancelled by user
+gpg: no default secret key: Operation cancelled
+gpg: 0001-mytest.txt: sign+encrypt failed: Operation cancelled
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+#*/}/> ";"$TMP1-$TMP2-${PWD#
+200607-220617-466c-ariell.zaki/>
+$ eval $PSTAMP
+200607-220628-d416-ariell.zaki/>
+$ 200528-165332-3846-UAS/>
+bash: syntax error near unexpected token `newline'
+$ 200528-165332-3846-UAS/>date
+bash: 200528-165332-3846-UAS/: No such file or directory
+$ date
+Sun Jun  7 22:10:14 WIB 2020
+$ PS1="\$(eval \$PSTAMP)"
+200607-221027-2c13-ariell.zaki/> date
+Sun Jun  7 22:10:29 WIB 2020
+200607-221029-b9c2-ariell.zaki/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200607-221044-9a05-ariell.zaki/> exit
+exit
+
+Script done on Sun 07 Jun 2020 10:10:53 PM WIB
+ariell.zaki@badak:~$ gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg-agent[21809]: command get_passphrase failed: Operation cancelled
+gpg: cancelled by user
+gpg: no default secret key: Operation cancelled
+gpg: 0001-mytest.txt: sign+encrypt failed: Operation cancelled
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+#*/}/> ";"$TMP1-$TMP2-${PWD#
+200607-220617-466c-ariell.zaki/>
+$ eval $PSTAMP
+200607-220628-d416-ariell.zaki/>
+$ 200528-165332-3846-UAS/>
+bash: syntax error near unexpected token `newline'
+$ 200528-165332-3846-UAS/>date
+bash: 200528-165332-3846-UAS/: No such file or directory
+$ date
+Sun Jun  7 22:10:14 WIB 2020
+$ PS1="\$(eval \$PSTAMP)"
+200607-221027-2c13-ariell.zaki/> date
+Sun Jun  7 22:10:29 WIB 2020
+200607-221029-b9c2-ariell.zaki/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200607-221044-9a05-ariell.zaki/> exit
+exit
+
+Script done on Sun 07 Jun 2020 10:10:53 PM WIB
+ariell.zaki@badak:~$ gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg-agent[21809]: command get_passphrase failed: Operation cancelled
+gpg: cancelled by user
+gpg: no default secret key: Operation cancelled
+gpg: 0001-mytest.txt: sign+encrypt failed: Operation cancelled
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+#*/}/> ";"$TMP1-$TMP2-${PWD#
+200607-220617-466c-ariell.zaki/>
+$ eval $PSTAMP
+200607-220628-d416-ariell.zaki/>
+$ 200528-165332-3846-UAS/>
+bash: syntax error near unexpected token `newline'
+$ 200528-165332-3846-UAS/>date
+bash: 200528-165332-3846-UAS/: No such file or directory
+$ date
+Sun Jun  7 22:10:14 WIB 2020
+$ PS1="\$(eval \$PSTAMP)"
+200607-221027-2c13-ariell.zaki/> date
+Sun Jun  7 22:10:29 WIB 2020
+200607-221029-b9c2-ariell.zaki/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200607-221044-9a05-ariell.zaki/> exit
+exit
+
+Script done on Sun 07 Jun 2020 10:10:53 PM WIB
+ariell.zaki@badak:~$ gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg-agent[21809]: command get_passphrase failed: Operation cancelled
+gpg: cancelled by user
+gpg: no default secret key: Operation cancelled
+gpg: 0001-mytest.txt: sign+encrypt failed: Operation cancelled
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+#*/}/> ";"$TMP1-$TMP2-${PWD#
+200607-220617-466c-ariell.zaki/>
+$ eval $PSTAMP
+200607-220628-d416-ariell.zaki/>
+$ 200528-165332-3846-UAS/>
+bash: syntax error near unexpected token `newline'
+$ 200528-165332-3846-UAS/>date
+bash: 200528-165332-3846-UAS/: No such file or directory
+$ date
+Sun Jun  7 22:10:14 WIB 2020
+$ PS1="\$(eval \$PSTAMP)"
+200607-221027-2c13-ariell.zaki/> date
+Sun Jun  7 22:10:29 WIB 2020
+200607-221029-b9c2-ariell.zaki/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200607-221044-9a05-ariell.zaki/> exit
+exit
+
+Script done on Sun 07 Jun 2020 10:10:53 PM WIB
+ariell.zaki@badak:~$ gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg-agent[21809]: command get_passphrase failed: Operation cancelled
+gpg: cancelled by user
+gpg: no default secret key: Operation cancelled
+gpg: 0001-mytest.txt: sign+encrypt failed: Operation cancelled
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+#*/}/> ";"$TMP1-$TMP2-${PWD#
+200607-220617-466c-ariell.zaki/>
+$ eval $PSTAMP
+200607-220628-d416-ariell.zaki/>
+$ 200528-165332-3846-UAS/>
+bash: syntax error near unexpected token `newline'
+$ 200528-165332-3846-UAS/>date
+bash: 200528-165332-3846-UAS/: No such file or directory
+$ date
+Sun Jun  7 22:10:14 WIB 2020
+$ PS1="\$(eval \$PSTAMP)"
+200607-221027-2c13-ariell.zaki/> date
+Sun Jun  7 22:10:29 WIB 2020
+200607-221029-b9c2-ariell.zaki/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200607-221044-9a05-ariell.zaki/> exit
+exit
+
+Script done on Sun 07 Jun 2020 10:10:53 PM WIB
+ariell.zaki@badak:~$ gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg-agent[21809]: command get_passphrase failed: Operation cancelled
+gpg: cancelled by user
+gpg: no default secret key: Operation cancelled
+gpg: 0001-mytest.txt: sign+encrypt failed: Operation cancelled
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+#*/}/> ";"$TMP1-$TMP2-${PWD#
+200607-220617-466c-ariell.zaki/>
+$ eval $PSTAMP
+200607-220628-d416-ariell.zaki/>
+$ 200528-165332-3846-UAS/>
+bash: syntax error near unexpected token `newline'
+$ 200528-165332-3846-UAS/>date
+bash: 200528-165332-3846-UAS/: No such file or directory
+$ date
+Sun Jun  7 22:10:14 WIB 2020
+$ PS1="\$(eval \$PSTAMP)"
+200607-221027-2c13-ariell.zaki/> date
+Sun Jun  7 22:10:29 WIB 2020
+200607-221029-b9c2-ariell.zaki/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200607-221044-9a05-ariell.zaki/> exit
+exit
+
+Script done on Sun 07 Jun 2020 10:10:53 PM WIB
+ariell.zaki@badak:~$ gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg-agent[21809]: command get_passphrase failed: Operation cancelled
+gpg: cancelled by user
+gpg: no default secret key: Operation cancelled
+gpg: 0001-mytest.txt: sign+encrypt failed: Operation cancelled
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+#*/}/> ";"$TMP1-$TMP2-${PWD#
+200607-220617-466c-ariell.zaki/>
+$ eval $PSTAMP
+200607-220628-d416-ariell.zaki/>
+$ 200528-165332-3846-UAS/>
+bash: syntax error near unexpected token `newline'
+$ 200528-165332-3846-UAS/>date
+bash: 200528-165332-3846-UAS/: No such file or directory
+$ date
+Sun Jun  7 22:10:14 WIB 2020
+$ PS1="\$(eval \$PSTAMP)"
+200607-221027-2c13-ariell.zaki/> date
+Sun Jun  7 22:10:29 WIB 2020
+200607-221029-b9c2-ariell.zaki/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200607-221044-9a05-ariell.zaki/> exit
+exit
+
+Script done on Sun 07 Jun 2020 10:10:53 PM WIB
+ariell.zaki@badak:~$ gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg-agent[21809]: command get_passphrase failed: Operation cancelled
+gpg: cancelled by user
+gpg: no default secret key: Operation cancelled
+gpg: 0001-mytest.txt: sign+encrypt failed: Operation cancelled
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+#*/}/> ";"$TMP1-$TMP2-${PWD#
+200607-220617-466c-ariell.zaki/>
+$ eval $PSTAMP
+200607-220628-d416-ariell.zaki/>
+$ 200528-165332-3846-UAS/>
+bash: syntax error near unexpected token `newline'
+$ 200528-165332-3846-UAS/>date
+bash: 200528-165332-3846-UAS/: No such file or directory
+$ date
+Sun Jun  7 22:10:14 WIB 2020
+$ PS1="\$(eval \$PSTAMP)"
+200607-221027-2c13-ariell.zaki/> date
+Sun Jun  7 22:10:29 WIB 2020
+200607-221029-b9c2-ariell.zaki/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200607-221044-9a05-ariell.zaki/> exit
+exit
+
+Script done on Sun 07 Jun 2020 10:10:53 PM WIB
+ariell.zaki@badak:~$ gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg-agent[21809]: command get_passphrase failed: Operation cancelled
+gpg: cancelled by user
+gpg: no default secret key: Operation cancelled
+gpg: 0001-mytest.txt: sign+encrypt failed: Operation cancelled
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+#*/}/> ";"$TMP1-$TMP2-${PWD#
+200607-220617-466c-ariell.zaki/>
+$ eval $PSTAMP
+200607-220628-d416-ariell.zaki/>
+$ 200528-165332-3846-UAS/>
+bash: syntax error near unexpected token `newline'
+$ 200528-165332-3846-UAS/>date
+bash: 200528-165332-3846-UAS/: No such file or directory
+$ date
+Sun Jun  7 22:10:14 WIB 2020
+$ PS1="\$(eval \$PSTAMP)"
+200607-221027-2c13-ariell.zaki/> date
+Sun Jun  7 22:10:29 WIB 2020
+200607-221029-b9c2-ariell.zaki/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200607-221044-9a05-ariell.zaki/> exit
+exit
+
+Script done on Sun 07 Jun 2020 10:10:53 PM WIB
+ariell.zaki@badak:~$ gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg-agent[21809]: command get_passphrase failed: Operation cancelled
+gpg: cancelled by user
+gpg: no default secret key: Operation cancelled
+gpg: 0001-mytest.txt: sign+encrypt failed: Operation cancelled
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+#*/}/> ";"$TMP1-$TMP2-${PWD#
+200607-220617-466c-ariell.zaki/>
+$ eval $PSTAMP
+200607-220628-d416-ariell.zaki/>
+$ 200528-165332-3846-UAS/>
+bash: syntax error near unexpected token `newline'
+$ 200528-165332-3846-UAS/>date
+bash: 200528-165332-3846-UAS/: No such file or directory
+$ date
+Sun Jun  7 22:10:14 WIB 2020
+$ PS1="\$(eval \$PSTAMP)"
+200607-221027-2c13-ariell.zaki/> date
+Sun Jun  7 22:10:29 WIB 2020
+200607-221029-b9c2-ariell.zaki/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200607-221044-9a05-ariell.zaki/> exit
+exit
+
+Script done on Sun 07 Jun 2020 10:10:53 PM WIB
+ariell.zaki@badak:~$ gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg-agent[21809]: command get_passphrase failed: Operation cancelled
+gpg: cancelled by user
+gpg: no default secret key: Operation cancelled
+gpg: 0001-mytest.txt: sign+encrypt failed: Operation cancelled
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+#*/}/> ";"$TMP1-$TMP2-${PWD#
+200607-220617-466c-ariell.zaki/>
+$ eval $PSTAMP
+200607-220628-d416-ariell.zaki/>
+$ 200528-165332-3846-UAS/>
+bash: syntax error near unexpected token `newline'
+$ 200528-165332-3846-UAS/>date
+bash: 200528-165332-3846-UAS/: No such file or directory
+$ date
+Sun Jun  7 22:10:14 WIB 2020
+$ PS1="\$(eval \$PSTAMP)"
+200607-221027-2c13-ariell.zaki/> date
+Sun Jun  7 22:10:29 WIB 2020
+200607-221029-b9c2-ariell.zaki/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200607-221044-9a05-ariell.zaki/> exit
+exit
+
+Script done on Sun 07 Jun 2020 10:10:53 PM WIB
+ariell.zaki@badak:~$ gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg-agent[21809]: command get_passphrase failed: Operation cancelled
+gpg: cancelled by user
+gpg: no default secret key: Operation cancelled
+gpg: 0001-mytest.txt: sign+encrypt failed: Operation cancelled
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+#*/}/> ";"$TMP1-$TMP2-${PWD#
+200607-220617-466c-ariell.zaki/>
+$ eval $PSTAMP
+200607-220628-d416-ariell.zaki/>
+$ 200528-165332-3846-UAS/>
+bash: syntax error near unexpected token `newline'
+$ 200528-165332-3846-UAS/>date
+bash: 200528-165332-3846-UAS/: No such file or directory
+$ date
+Sun Jun  7 22:10:14 WIB 2020
+$ PS1="\$(eval \$PSTAMP)"
+200607-221027-2c13-ariell.zaki/> date
+Sun Jun  7 22:10:29 WIB 2020
+200607-221029-b9c2-ariell.zaki/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200607-221044-9a05-ariell.zaki/> exit
+exit
+
+Script done on Sun 07 Jun 2020 10:10:53 PM WIB
+ariell.zaki@badak:~$ gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg-agent[21809]: command get_passphrase failed: Operation cancelled
+gpg: cancelled by user
+gpg: no default secret key: Operation cancelled
+gpg: 0001-mytest.txt: sign+encrypt failed: Operation cancelled
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+#*/}/> ";"$TMP1-$TMP2-${PWD#
+200607-220617-466c-ariell.zaki/>
+$ eval $PSTAMP
+200607-220628-d416-ariell.zaki/>
+$ 200528-165332-3846-UAS/>
+bash: syntax error near unexpected token `newline'
+$ 200528-165332-3846-UAS/>date
+bash: 200528-165332-3846-UAS/: No such file or directory
+$ date
+Sun Jun  7 22:10:14 WIB 2020
+$ PS1="\$(eval \$PSTAMP)"
+200607-221027-2c13-ariell.zaki/> date
+Sun Jun  7 22:10:29 WIB 2020
+200607-221029-b9c2-ariell.zaki/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200607-221044-9a05-ariell.zaki/> exit
+exit
+
+Script done on Sun 07 Jun 2020 10:10:53 PM WIB
+ariell.zaki@badak:~$ gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg-agent[21809]: command get_passphrase failed: Operation cancelled
+gpg: cancelled by user
+gpg: no default secret key: Operation cancelled
+gpg: 0001-mytest.txt: sign+encrypt failed: Operation cancelled
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+#*/}/> ";"$TMP1-$TMP2-${PWD#
+200607-220617-466c-ariell.zaki/>
+$ eval $PSTAMP
+200607-220628-d416-ariell.zaki/>
+$ 200528-165332-3846-UAS/>
+bash: syntax error near unexpected token `newline'
+$ 200528-165332-3846-UAS/>date
+bash: 200528-165332-3846-UAS/: No such file or directory
+$ date
+Sun Jun  7 22:10:14 WIB 2020
+$ PS1="\$(eval \$PSTAMP)"
+200607-221027-2c13-ariell.zaki/> date
+Sun Jun  7 22:10:29 WIB 2020
+200607-221029-b9c2-ariell.zaki/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200607-221044-9a05-ariell.zaki/> exit
+exit
+
+Script done on Sun 07 Jun 2020 10:10:53 PM WIB
+ariell.zaki@badak:~$ gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg-agent[21809]: command get_passphrase failed: Operation cancelled
+gpg: cancelled by user
+gpg: no default secret key: Operation cancelled
+gpg: 0001-mytest.txt: sign+encrypt failed: Operation cancelled
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+#*/}/> ";"$TMP1-$TMP2-${PWD#
+200607-220617-466c-ariell.zaki/>
+$ eval $PSTAMP
+200607-220628-d416-ariell.zaki/>
+$ 200528-165332-3846-UAS/>
+bash: syntax error near unexpected token `newline'
+$ 200528-165332-3846-UAS/>date
+bash: 200528-165332-3846-UAS/: No such file or directory
+$ date
+Sun Jun  7 22:10:14 WIB 2020
+$ PS1="\$(eval \$PSTAMP)"
+200607-221027-2c13-ariell.zaki/> date
+Sun Jun  7 22:10:29 WIB 2020
+200607-221029-b9c2-ariell.zaki/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200607-221044-9a05-ariell.zaki/> exit
+exit
+
+Script done on Sun 07 Jun 2020 10:10:53 PM WIB
+ariell.zaki@badak:~$ gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg-agent[21809]: command get_passphrase failed: Operation cancelled
+gpg: cancelled by user
+gpg: no default secret key: Operation cancelled
+gpg: 0001-mytest.txt: sign+encrypt failed: Operation cancelled
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg: cbkadal@vlsm.org: skipped: No public key
+gpg: 0001-mytest.txt: sign+encrypt failed: No public key
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg: Invalid passphrase; please try again ...
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg: cbkadal@vlsm.org: skipped: No public key
+gpg: 0001-mytest.txt: sign+encrypt failed: No public key
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg: Invalid passphrase; please try again ...
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg: cbkadal@vlsm.org: skipped: No public key
+gpg: 0001-mytest.txt: sign+encrypt failed: No public key
+ariell.zaki@badak:~$ ls -al
+total 96
+drwxr-xr-x  5 ariell.zaki StafCS 4096 Jun  7 22:10 .
+drwxr-xr-x 61 root        root   4096 Jun  7 13:03 ..
+-rw-r--r--  1 ariell.zaki StafCS 8192 Jun  7 22:12 0001-mytest.txt
+-rw-r--r--  1 ariell.zaki StafCS 3171 Jun  5 18:25 0003-OSPUB.txt
+-rw-r--r--  1 ariell.zaki StafCS 2257 Feb 24 10:16 --armor
+-rw-------  1 ariell.zaki StafCS 3086 Jun  7 22:10 .bash_history
+-rw-r--r--  1 ariell.zaki StafCS  220 Jan 28 19:05 .bash_logout
+-rw-r--r--  1 ariell.zaki StafCS 3515 Jan 28 19:05 .bashrc
+-rw-r--r--  1 ariell.zaki StafCS    0 Jun  7 22:10 date
+-rw-r--r--  1 ariell.zaki StafCS   13 Feb 24 10:12 decrypt.txt
+drwxr-xr-x 13 ariell.zaki StafCS 4096 Jan 28 19:38 Demos
+-rw-r--r--  1 ariell.zaki StafCS   60 Feb 26 10:38 enc_test.txt
+drwx------  3 ariell.zaki StafCS 4096 Jun  7 22:13 .gnupg
+-rw-r--r--  1 ariell.zaki StafCS 3157 Jun  5 18:07 mykey.asc
+-rw-r--r--  1 ariell.zaki StafCS 6754 Jun  5 18:14 myprivatekey.asc
+-rw-r--r--  1 ariell.zaki StafCS  675 Jan 28 19:05 .profile
+-rw-r--r--  1 ariell.zaki StafCS 3157 Feb 24 10:16 public_key.txt
+drwxr-xr-x  2 ariell.zaki StafCS 4096 Feb 24 21:12 test
+-rw-------  1 ariell.zaki StafCS 3730 Apr 11 12:16 .viminfo
+-rw-r--r--  1 ariell.zaki StafCS   13 Feb 24 10:10 W03-log.txt
+-rw-r--r--  1 ariell.zaki StafCS 1672 Feb 24 10:11 W03-log.txt.asc
+-rw-r--r--  1 ariell.zaki StafCS   60 Feb 26 10:36 W04-data.txt
+-rw-r--r--  1 ariell.zaki StafCS  953 Feb 26 10:37 W04-log.txt
+ariell.zaki@badak:~$ gpg2 --list-keys
+/home/fasilkom/mahasiswa/a/ariell.zaki/.gnupg/pubring.gpg
+---------------------------------------------------------
+pub   4096R/D96A9111 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>
+sub   4096R/DBA0E8A3 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r cbkadal@vlsm.org -s 0001-mytest.txt
+
+You need a passphrase to unlock the secret key for
+user: "Ariell Zaki Prabaswara Ariza (Generating Key) <ariellariza8@gmail.com>"
+4096-bit RSA key, ID D96A9111, created 2020-02-24
+
+gpg: cbkadal@vlsm.org: skipped: No public key
+gpg: 0001-mytest.txt: sign+encrypt failed: No public key
+ariell.zaki@badak:~$ gpg2 -o 0002-mytest.txt.asc -e -a -r operatingsystems@vlsm.org -r ariellariza8@gmail.co -s 000
