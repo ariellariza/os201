@@ -9,7 +9,7 @@
 
 * Saya merupakan mahasiswa fasilkom UI jurusan ilmu komputer angkatan 2018
 
-* [URLs](URLs/)
+* Referensi berguna seputar OS : [URLs](URLs/)
 
 Salam kenal.
 
